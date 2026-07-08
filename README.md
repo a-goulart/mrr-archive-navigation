@@ -1,10 +1,11 @@
 # mrr-archive-navigation
 
-##Plain Language Summary##
+## Plain Language Summary ##
 
 This project explores a new way to browse digitized magazine archives. As I case study I used 30 issues of Maximum Rocknroll, a California-based punk zine. Instead of relying on keyword search (which tends to surface only the most typical content), it uses AI to help surface the unusual, unexpected, or overlooked material. In other words, computational methods were built to find content, corrections, and voices that don't fit the mainstream pattern. It combines a fine-tuned language model (DistilBERT) with anomaly detection to flag outlier documents, and network analysis to map how readers corresponded with each other. The goal of this project was to build tools that help archives preserve marginal voices instead of flattening them into the average, offering a new way to explore historical print media at scale.
 
 Code used for the MA thesis project in media studies: cultural data and AI. Includes fine-tuned DistilBERT + Isolation Forest anomaly detection pipeline.
-##Abstract##
+
+## Abstract ##
 
 Digitized zine archives present a navigational challenge: as print ephemera becomes increasingly archived, individual documents risk getting lost in a sea of abundance, further complicated by the material irregularities of the zine format. Zines are valuable historical sources because they functioned as participatory spaces for voices excluded from mainstream media, yet standard computational approaches risk smoothing over their specificities, privileging dominant patterns at the expense of marginal voices. This thesis argues that digitized zine archives require non-linear modes of navigation responsive to the medium itself, moving beyond keyword search to enable serendipitous discovery at scale. Two computational methods are applied to Maximum Rocknroll (MRR), a California-based punk zine, drawing on 30 issues from 1984, 1989, and 1994. Drawing on Manovich's (2001) database logic and Ramsay's (2010) hermeneutics of screwing around, the research implements reply-based correspondence networks and a fine-tuned DistilBERT and Isolation Forest anomaly detection pipeline. The correspondence networks reveal MRR functioned less as a dialogic forum and more as a bulletin board for subcultural exchange. Anomaly detection surfaced legal solicitations, corrections, and feminist media criticism, demonstrating MRR's discursive heterogeneity. This research offers the first application of anomaly detection to a zine archive and the first correspondence-level network analysis of MRR letters, contributing new approaches for navigating digitized print ephemera at scale without subordinating the particular to the aggregate.
